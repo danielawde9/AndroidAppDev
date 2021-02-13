@@ -74,9 +74,10 @@ the code is repeated so we make a function of it
 
 the next button think each answer is true, let's fix that
 
-/ state / in memory / visible to user / in foreground
-/ stopped / yes / no / no
-/ paused / yes / partially,yes / no
-/ resumed / yes / yes / yes
+| state | in memory | visible to user | in foreground
+| stopped | yes | no | no
+| paused | yes | partially,yes | no
+| resumed | yes | yes | yes
 
 when rotating the device it will destroy the whole activity 
+create a new layout choose the qualifier as orientation lanscape and choose the same name as activity_main
