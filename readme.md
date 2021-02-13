@@ -75,6 +75,7 @@ the code is repeated so we make a function of it
 the next button think each answer is true, let's fix that
 
 | state | in memory | visible to user | in foreground |
+| --- | ---| ---|---|
 | stopped | yes | no | no |
 | paused | yes | partially,yes | no |
 | resumed | yes | yes | yes |
